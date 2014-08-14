@@ -21,6 +21,8 @@ $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor-blo
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
+    com.qualcomm.services.location \
+    MotGeoFenceSvc \
     qcrilmsgtunnel \
     TimeService
 
